@@ -39,6 +39,13 @@
     ],
     "experiments": {
       "typedRoutes": false
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "38c0db54-788b-499c-ba26-ebe6e295f5da"
+      }
+    },
+    "owner": "lucaskenji"
   }
 }

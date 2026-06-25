@@ -6,10 +6,9 @@ node_modules/
 dist/
 web-build/
 
-# Native builds
-ios/build/
-android/build/
-android/.gradle/
+# Native builds — gerados pelo EAS, não manter no repo
+ios/
+android/
 
 # Environment
 .env
