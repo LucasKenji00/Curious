@@ -9,7 +9,11 @@
     "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.curious.app"
+      "bundleIdentifier": "com.curious.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSPhotoLibraryUsageDescription": "Used to set your profile photo."
+      }
     },
     "android": {
       "adaptiveIcon": {
