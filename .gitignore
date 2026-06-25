@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native builds
+ios/build/
+android/build/
+android/.gradle/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# EAS
+.eas/
+
+# Claude Flow (internal tool data)
+.claude-flow/
+
+# iOS Pods (gerado automaticamente)
+ios/Pods/
+ios/build/

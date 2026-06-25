@@ -1,0 +1,272 @@
+[
+  {
+    "id": "001",
+    "category": "psychology",
+    "angle": "why_people_act",
+    "surprise_type": "challenges_belief",
+    "hook": "The Dunning-Kruger effect works the opposite way you think.",
+    "body": "Incompetent people can't evaluate themselves. But experts also underestimate their own competence — they assume everyone understands what they understand.",
+    "deepDive": "The original 1999 study by Kruger and Dunning found that the least skilled performers grossly overestimated their abilities. But the mirror image is equally true: experts consistently underestimate how rare their knowledge is, projecting their own competence outward. This creates a communication gap where the most capable people in a room are often the least confident about speaking up.",
+    "tags": ["bias", "self-awareness", "cognition"]
+  },
+  {
+    "id": "002",
+    "category": "psychology",
+    "angle": "why_people_act",
+    "surprise_type": "explains_wonder",
+    "hook": "You don't remember experiences — you remember their peaks and how they ended.",
+    "body": "People judge experiences almost entirely by their most intense moment and their final moments. Duration barely matters. A vacation that ends badly can feel like a failure even if most of it was excellent.",
+    "deepDive": "Daniel Kahneman's peak-end rule emerged from studies on colonoscopies. Patients who had longer procedures rated them as less painful when the ending was gentler — even though they experienced more total discomfort. This is the 'experiencing self' vs. the 'remembering self': two systems that rarely agree. Marketing, healthcare, and product design have begun optimizing for endings rather than averages as a result.",
+    "tags": ["memory", "experience", "kahneman"]
+  },
+  {
+    "id": "003",
+    "category": "psychology",
+    "angle": "why_people_act",
+    "surprise_type": "challenges_belief",
+    "hook": "What you see just before a decision quietly shapes what you decide — without you noticing.",
+    "body": "Hold a warm cup of coffee before meeting someone and you'll find them more trustworthy. See words associated with old age and you'll walk slower out of the room. Neither effect registers consciously.",
+    "deepDive": "John Bargh's priming experiments showed that exposure to words, objects, or sensory inputs activates cognitive frameworks outside awareness. In one study, participants primed with words like 'Florida' and 'bingo' walked measurably slower to the elevator. When debriefed, none believed it had affected them. Awareness of priming reduces but doesn't eliminate the effect — you can't fully opt out of your own cognitive architecture.",
+    "tags": ["priming", "unconscious", "decision-making"]
+  },
+  {
+    "id": "004",
+    "category": "psychology",
+    "angle": "why_people_act",
+    "surprise_type": "explains_wonder",
+    "hook": "You think people notice your mistakes far more than they actually do.",
+    "body": "In studies where participants wore embarrassing t-shirts into a room, they estimated half the room would notice. The real number was around 25%. We're the protagonists of our own story — which distorts how visible we think we are.",
+    "deepDive": "The spotlight effect, documented by Thomas Gilovich at Cornell, comes from anchoring: when estimating what others notice, we start from our own experience — where we're acutely aware of the embarrassing detail — and adjust outward, never far enough. This explains why public speaking anxiety is disproportionate to audience attention, why we agonize over social slips others won't remember, and why most of our self-consciousness is invisible to everyone but us.",
+    "tags": ["self-consciousness", "social-cognition", "anxiety"]
+  },
+  {
+    "id": "005",
+    "category": "science & nature",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "wildly_unexpected",
+    "hook": "Octopuses have three hearts — and two of them stop beating when they swim.",
+    "body": "Two hearts pump blood to the gills; a third pumps it to the body. Swimming exhausts the gill hearts, which is why octopuses prefer crawling over open water despite being agile hunters.",
+    "deepDive": "Their blood uses copper-based hemocyanin instead of iron-based hemoglobin — it turns blue when oxygenated and works more efficiently at low temperatures. Two-thirds of all their neurons live in their arms, which can taste, touch, and make semi-independent decisions without instruction from the central brain. Their intelligence evolved entirely separately from vertebrate intelligence — making the octopus the closest thing we have to an alien mind on Earth.",
+    "tags": ["biology", "marine-life", "evolution", "intelligence"]
+  },
+  {
+    "id": "006",
+    "category": "science & nature",
+    "angle": "whats_coming_next",
+    "surprise_type": "explains_wonder",
+    "hook": "Trees warn each other about insect attacks through underground fungal networks.",
+    "body": "When a Douglas fir is attacked by aphids, it sends chemical distress signals through mycorrhizal fungi connecting nearby trees. Neighbors ramp up their own defenses before the insects even arrive.",
+    "deepDive": "Ecologist Suzanne Simard's research in British Columbia forests revealed these fungal networks also route carbon and nutrients between trees. Mother trees — the oldest in a stand — preferentially channel resources to their own seedlings when root systems connect. The network blurs the distinction between an individual organism and a collective system. Whether this constitutes 'communication' in a meaningful sense remains genuinely contested in biology.",
+    "tags": ["ecology", "biology", "forests", "fungi"]
+  },
+  {
+    "id": "007",
+    "category": "science & nature",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "challenges_belief",
+    "hook": "Without Einstein's corrections, GPS would drift by 10 kilometers every day.",
+    "body": "GPS satellites experience both special and general relativistic time dilation. Their clocks run 38 microseconds fast per day. At the speed of light, that's 10km of accumulated error — corrected continuously in the firmware.",
+    "deepDive": "Special relativity slows the satellite clocks because they move at ~14,000 km/h. But general relativity speeds them up because they're farther from Earth's gravitational field. The net effect is +38 microseconds per day. GPS engineers corrected for both effects before launch — making every navigation app on the planet a daily practical application of theories that seemed purely abstract in 1905.",
+    "tags": ["physics", "relativity", "gps", "einstein"]
+  },
+  {
+    "id": "008",
+    "category": "history & politics",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "wildly_unexpected",
+    "hook": "Oxford University is older than the Aztec Empire.",
+    "body": "Teaching began at Oxford around 1096 AD. The Aztec capital Tenochtitlan wasn't founded until 1325. When Hernán Cortés arrived in Mexico, Oxford had been running for over 400 years.",
+    "deepDive": "This comparison works because we treat 'ancient' civilizations as simultaneous. But the Aztec Empire was genuinely new — it rose rapidly in the 14th century and lasted less than 200 years before Spanish conquest in 1521. Oxford was already old by European standards when Tenochtitlan was founded. Balliol College had been established as a form of penance by John I de Balliol in 1263 — before the Aztec civilization existed.",
+    "tags": ["education", "history", "perspective", "aztec"]
+  },
+  {
+    "id": "009",
+    "category": "history & politics",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "challenges_belief",
+    "hook": "Napoleon wasn't short. The myth came from a mistranslation and British propaganda.",
+    "body": "Napoleon stood about 5'7\" — above average for a Frenchman in his era. The confusion came from recording his height as 5'2\" in French units, which English sources converted literally without adjusting for the difference between French and imperial inches.",
+    "deepDive": "British caricaturist James Gillray's widely circulated cartoons depicted Napoleon as a tiny, tantrum-prone figure, deliberately cultivating the image. His French nickname 'le petit caporal' was affectionate — used by soldiers to signal approachability — but was taken literally in English translation. The myth persisted even after measurement standards were reconciled. By the time historians corrected the record, the image had calcified into cultural common sense.",
+    "tags": ["napoleon", "myth", "propaganda", "history"]
+  },
+  {
+    "id": "010",
+    "category": "history & politics",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "wildly_unexpected",
+    "hook": "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid.",
+    "body": "The Great Pyramid was built around 2560 BC. Cleopatra was born in 69 BC — 2,500 years after the pyramid. The Moon landing was 1969 AD — about 2,000 years after Cleopatra.",
+    "deepDive": "To Cleopatra, the pyramids were already ancient tourist attractions. Julius Caesar and Cleopatra both marveled at them much as we do today. The Sphinx had already had its nose damaged by erosion by Roman times. When we compress history into 'ancient,' we obscure the fact that the people living in it had just as strong a sense of a remote past as we do — and that Cleopatra would have found the pyramids as mysterious as we find her.",
+    "tags": ["egypt", "time", "perspective", "cleopatra"]
+  },
+  {
+    "id": "011",
+    "category": "philosophy",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "challenges_belief",
+    "hook": "If you replace every plank of a ship, is it still the same ship?",
+    "body": "The Ship of Theseus paradox asks where identity lives. Applied to people: every cell in your body is replaced over years. The neurons, beliefs, and memories you have at 35 barely overlap with those at 8. Are you still the same person?",
+    "deepDive": "Locke argued identity persists through continuity of consciousness — you're the same person as your 8-year-old self because you can remember being them, even if the memories are reconstructed. Parfit took a more radical view: personal identity is not a deep metaphysical fact but a useful fiction. He thought this should be liberating — if there's no persistent self to protect, we can worry less about 'our' future and invest more in outcomes that don't depend on self-continuity.",
+    "tags": ["identity", "metaphysics", "parfit", "locke"]
+  },
+  {
+    "id": "012",
+    "category": "philosophy",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "explains_wonder",
+    "hook": "Socrates thought writing would destroy human memory — and he might have had a point.",
+    "body": "Socrates refused to write anything down. He believed writing made people dependent on external records rather than developing genuine understanding. His concern is recorded in the Phaedrus — written by Plato.",
+    "deepDive": "The argument Socrates makes through Plato is that writing produces 'the appearance of wisdom, not real wisdom.' You can show someone a text; you can't interrogate it. It can't respond to misunderstanding. Oral knowledge transmitted through dialogue forces genuine comprehension. The irony — that we only know this argument because Plato wrote it down — is savored by philosophers. The same critique resurfaces with GPS, search engines, and now AI assistants: offloading cognition to tools may atrophy the faculties we offload.",
+    "tags": ["socrates", "writing", "memory", "technology"]
+  },
+  {
+    "id": "013",
+    "category": "philosophy",
+    "angle": "whats_coming_next",
+    "surprise_type": "challenges_belief",
+    "hook": "If it's possible to simulate a universe, you're probably already living in one.",
+    "body": "Nick Bostrom's simulation argument says at least one of three things must be true: civilizations go extinct before reaching computing maturity; advanced civilizations choose not to run simulations; or we almost certainly live inside one.",
+    "deepDive": "The logic is probabilistic. If even a small fraction of advanced civilizations run detailed ancestor simulations, the number of simulated minds would vastly outnumber biological ones. A randomly selected conscious being is therefore probably simulated. The argument has been taken seriously by physicists and philosophers alike. Its most useful function may not be establishing truth, but making you pause before dismissing reality as ordinary or self-evidently special.",
+    "tags": ["simulation", "bostrom", "consciousness", "probability"]
+  },
+  {
+    "id": "014",
+    "category": "technology",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "challenges_belief",
+    "hook": "Steve Jobs didn't want third-party apps on the original iPhone.",
+    "body": "At launch in 2007, the iPhone had no App Store and no developer SDK. Jobs' vision was a closed device — Safari web apps were the intended platform. The App Store only arrived in 2008 after internal pressure.",
+    "deepDive": "Jobs' original position was that outside developers would destabilize the phone and compromise security. The App Store only got built after Phil Schiller, Scott Forstall, and others pushed back hard. By 2010, it had become Apple's defining business moat. The feature that transformed the smartphone era — possibly the most consequential software distribution decision in history — was almost never built. Jobs later called it one of his best decisions. The internal debate that preceded it was not publicly acknowledged.",
+    "tags": ["apple", "iphone", "product-history", "apps"]
+  },
+  {
+    "id": "015",
+    "category": "technology",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "wildly_unexpected",
+    "hook": "The first computer bug was a real moth trapped in a relay in 1947.",
+    "body": "On September 9, 1947, Grace Hopper's team at Harvard found an actual moth causing errors in the Mark II computer. They taped it in the logbook with the note: 'First actual case of bug being found.'",
+    "deepDive": "The term 'bug' for technical failures predates this — Edison used it in the 1870s to describe gremlins in electrical systems — but Hopper's logbook entry gave the word its modern computing meaning. The moth, still taped to the page, is on display at the Smithsonian. Hopper herself later developed the first compiler and helped create COBOL, making her one of the foundational figures of modern software — though the moth remains her most cited legacy.",
+    "tags": ["grace-hopper", "computing-history", "software", "folklore"]
+  },
+  {
+    "id": "016",
+    "category": "technology",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "challenges_belief",
+    "hook": "The internet wasn't designed to survive a nuclear strike — that framing came later.",
+    "body": "ARPANET's design emphasized resilience to node failures, which overlapped with nuclear-survivability ideas. But the actual designers were mostly solving a practical problem: letting university computers share expensive resources.",
+    "deepDive": "Paul Baran at RAND did propose packet-switched distributed networks partly for nuclear survivability in the early 1960s, and his ideas influenced ARPANET. But the engineers at BBN and DARPA were focused on resource-sharing between research institutions. The Cold War narrative became dominant because it's a better story. Most infrastructure gets built for mundane reasons — the heroic origin myth arrives afterward, once the stakes become clearer in retrospect.",
+    "tags": ["internet", "arpanet", "history", "cold-war"]
+  },
+  {
+    "id": "017",
+    "category": "art & culture",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "wildly_unexpected",
+    "hook": "Shakespeare invented around 1,700 words we still use every day.",
+    "body": "Bedroom. Lonely. Generous. Gloomy. Zany. Obscene. Countless. He didn't just write plays — he coined or first recorded a startling share of modern English vocabulary.",
+    "deepDive": "Shakespeare's word-coining followed patterns in English morphology — adding prefixes and suffixes, converting nouns to verbs, assembling familiar roots into new compounds. 'Bedroom' is just 'bed' and 'room,' but he assembled it first. Some words he used appear nowhere else in recorded English before him. Whether he invented them or simply recorded street usage we've otherwise lost is genuinely unknowable — which is part of why the debt we owe him is impossible to measure precisely.",
+    "tags": ["shakespeare", "language", "english", "literature"]
+  },
+  {
+    "id": "018",
+    "category": "art & culture",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "wildly_unexpected",
+    "hook": "Beethoven composed his most celebrated symphony while completely deaf.",
+    "body": "By the time Beethoven wrote Symphony No. 9 in 1824, he had been profoundly deaf for over a decade. At the premiere, someone had to turn him around so he could see the applause he couldn't hear.",
+    "deepDive": "What makes this more interesting than the standard 'triumph over adversity' narrative is what it reveals about musical cognition. Beethoven composed entirely in his inner ear, without external sound confirming or correcting his intuitions. His late-period works — all composed in deafness — are considered his most complex and experimental. Some musicologists argue deafness freed him from acoustic conventions of his era, forcing composition into purely abstract sonic architecture that wasn't fully understood until decades later.",
+    "tags": ["beethoven", "music", "deafness", "composition"]
+  },
+  {
+    "id": "019",
+    "category": "art & culture",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "explains_wonder",
+    "hook": "Before oranges arrived in Europe, English had no word for the color orange.",
+    "body": "Old English described it as 'geoluhread' — yellow-red. The fruit arrived from Asia around the 15th century, bringing its Sanskrit-rooted name with it. The color then borrowed the fruit's name.",
+    "deepDive": "This reveals how language works: colors don't have objective names waiting to be assigned — they get named when they become culturally salient. Across languages, color term evolution follows predictable patterns: black and white first, then red, then green or yellow, then blue. 'Orange' as a distinct category arrived in English late, because of a trade route. Robins, which we describe as 'red-breasted,' were originally said to have orange-yellow chests — before the word existed to say so precisely.",
+    "tags": ["color", "language", "etymology", "perception"]
+  },
+  {
+    "id": "020",
+    "category": "economics & society",
+    "angle": "who_has_power",
+    "surprise_type": "challenges_belief",
+    "hook": "GDP counts a car crash as economic growth.",
+    "body": "Gross Domestic Product measures transactions, not wellbeing. Car repairs, hospital bills, and legal fees all add to GDP. A parent raising a child instead of paying daycare registers as nothing at all.",
+    "deepDive": "Simon Kuznets, who designed the national accounts system in the 1930s, explicitly warned Congress that GDP was not a measure of welfare. His warning was ignored. When a forest is logged, its destruction counts as production; when a river is cleaned up, the remediation counts as growth. Alternatives like the Genuine Progress Indicator have been proposed for decades. None have replaced GDP in policy — partly because GDP is easy to measure, and partly because those who benefit from its narrow definition have little incentive to change it.",
+    "tags": ["gdp", "economics", "measurement", "policy"]
+  },
+  {
+    "id": "021",
+    "category": "economics & society",
+    "angle": "who_has_power",
+    "surprise_type": "challenges_belief",
+    "hook": "The first price you hear in a negotiation will distort every offer that follows.",
+    "body": "Anchoring bias: whatever number is introduced first acts as a cognitive anchor. In salary negotiations, the opening offer disproportionately shapes the final number. Awareness of the bias does not neutralize it.",
+    "deepDive": "In studies by Dan Ariely, people asked to write down the last two digits of their Social Security number before bidding on wine bottles bid significantly more if their number was high — even knowing the number was random. Kahneman and Tversky documented that people spun a wheel rigged to stop at 10 or 65, then estimated the percentage of African nations in the UN. The wheel moved estimates in its direction. You are being anchored constantly — by menus, headlines, and opening lines — and knowing this barely helps.",
+    "tags": ["anchoring", "negotiation", "behavioral-economics", "bias"]
+  },
+  {
+    "id": "022",
+    "category": "economics & society",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "wildly_unexpected",
+    "hook": "A NYC pizza slice and a subway ride have cost roughly the same since 1960.",
+    "body": "In 1960 both cost 15 cents. In 2020 both cost around $2.75. The 'Pizza Principle' has tracked New York inflation more consistently than many official indices — for reasons economists still debate.",
+    "deepDive": "The correlation has held through disruptions: the 1980 fare hike forced pizza prices up to match; 9/11 briefly broke the parity. The most compelling explanation isn't coincidence but equilibrium: both products serve the same cost-sensitive, high-volume, low-margin market in the same city under identical labor and real estate pressures. When inputs rise for one, they rise for the other. Whether this is a useful economic indicator or an elaborate coincidence is genuinely open. That it's held for 60 years makes it hard to dismiss.",
+    "tags": ["inflation", "new-york", "price-theory", "pizza"]
+  },
+  {
+    "id": "023",
+    "category": "language & words",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "nobody_knows",
+    "hook": "The word 'salary' comes from salt. Roman soldiers were literally paid in it.",
+    "body": "The Latin 'salarium' — root of salary — referred to soldiers' salt rations or pay to buy salt. Salt was a strategic commodity: it preserved food, enabled trade routes, and toppled empires when supplies were cut.",
+    "deepDive": "Salt roads — 'Via Salaria' — were built across the Roman Empire specifically for its transport. Venetian salt merchants financed the Renaissance. The British salt tax in India, the 'gabelle,' was a direct trigger for Gandhi's 1930 Salt March. The phrase 'not worth his salt' comes from the same Roman era. The entire concept of 'salary' and 'worth' in Western economics traces back to a mineral that is now so cheap it's given away in paper packets at fast food restaurants.",
+    "tags": ["etymology", "rome", "economics", "language"]
+  },
+  {
+    "id": "024",
+    "category": "language & words",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "wildly_unexpected",
+    "hook": "The word 'nice' has meant 'ignorant,' 'wanton,' and 'precise' — before arriving at 'pleasant.'",
+    "body": "In the 13th century, 'nice' meant 'ignorant' or 'foolish.' By the 16th it meant 'lascivious.' By the 18th, 'fastidious.' It arrived at 'agreeable' sometime in the 19th century and has never meant one thing for long.",
+    "deepDive": "This semantic drift — called 'amelioration' when a word improves over time — is common in English. 'Pretty' once meant 'cunning.' 'Awful' meant 'inspiring awe.' 'Silly' meant 'blessed' in Old English. 'Naughty' meant 'poor.' Language historians describe the 'euphemism treadmill': words acquire negative connotations, get replaced by neutral ones, which then acquire negative connotations in turn. 'Nice' is not a settled word — it is a word between meanings, as it has always been.",
+    "tags": ["etymology", "semantics", "english", "language-change"]
+  },
+  {
+    "id": "025",
+    "category": "language & words",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "challenges_belief",
+    "hook": "English technically has no future tense — just a present tense with creative workarounds.",
+    "body": "Unlike French or Spanish, English has no dedicated grammatical future tense. We say 'will go,' 'am going,' or 'going to go' — all present-tense constructions wearing future clothing.",
+    "deepDive": "This matters beyond pedantry. Economist Keith Chen showed that speakers of 'futureless' languages — where the future is grammatically similar to the present — save more money, smoke less, and exercise more. His hypothesis: if your language forces you to strongly distinguish now from later, you psychologically separate your present and future selves, making it easier to discount the future. Languages that blur the distinction may encourage treating your future self as more continuous with who you are today — which turns out to be financially and physically beneficial.",
+    "tags": ["grammar", "future-tense", "english", "economics-of-language"]
+  },
+  {
+    "id": "026",
+    "category": "history & politics",
+    "angle": "who_has_power",
+    "surprise_type": "nobody_knows",
+    "hook": "The fax machine was invented 33 years before the telephone.",
+    "body": "Alexander Bain patented a rudimentary fax machine in 1843. Alexander Graham Bell patented the telephone in 1876. The fax was transmitting documents between Edinburgh and London while the telephone was still two decades away.",
+    "deepDive": "Bain's device used synchronized pendulums to scan a message and reproduce it electrically on the other end. It was a remarkable piece of engineering for the era. The technology sat in obscurity for over a century before becoming ubiquitous in offices in the 1980s — then became obsolete within two decades of that. The fax is one of history's better examples of a technology that was right before its time, forgotten, rediscovered, briefly dominant, and then immediately superseded by the thing it had been waiting for.",
+    "tags": ["technology", "history", "invention", "communication"]
+  },
+  {
+    "id": "027",
+    "category": "science & nature",
+    "angle": "how_did_we_get_here",
+    "surprise_type": "wildly_unexpected",
+    "hook": "A day on Venus is longer than a year on Venus.",
+    "body": "Venus rotates so slowly it takes 243 Earth days to complete one rotation — but only 225 Earth days to orbit the Sun. It also spins backwards relative to most planets, so the Sun rises in the west.",
+    "deepDive": "This retrograde rotation is still not fully explained. One leading theory is that Venus suffered a massive collision early in its history that flipped or dramatically slowed its spin. Another suggests its thick, dense atmosphere creates tidal effects that gradually reversed rotation over billions of years. Either way, a Venusian day is longer than a Venusian year — a sentence that should feel stranger than it does.",
+    "tags": ["venus", "astronomy", "planetary-science", "rotation"]
+  }
+]
