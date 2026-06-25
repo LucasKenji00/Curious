@@ -7,9 +7,13 @@ import {
   SafeAreaView,
   TouchableOpacity,
   TextInput,
+  Share,
+  Image,
 } from 'react-native';
 import { useFocusEffect, useRouter } from 'expo-router';
 import { Feather } from '@expo/vector-icons';
+import * as StoreReview from 'expo-store-review';
+import * as ImagePicker from 'expo-image-picker';
 import { theme } from '@/constants/theme';
 import { getPreferences, savePreferences, getStreakData, clearAll } from '@/lib/storage';
 import type { UserPreferences } from '@/types';
@@ -60,6 +64,7 @@ export default function ProfileScreen() {
   const [streak, setStreak] = useState<StreakData>({ lastOpenDate: '', streakCount: 0, openDates: [] });
   const [editingName, setEditingName] = useState(false);
   const [nameInput, setNameInput] = useState('');
+  const [photoUri, setPhotoUri] = useState<string | null>(null);
   const nameInputRef = useRef<TextInput>(null);
 
   useFocusEffect(
@@ -69,6 +74,7 @@ export default function ProfileScreen() {
         if (p) {
           setPrefs(p);
           setNameInput(p.userName);
+          setPhotoUri(p.photoUri ?? null);
         }
         const s = await getStreakData();
         setStreak(s);
@@ -90,6 +96,40 @@ export default function ProfileScreen() {
     setTimeout(() => nameInputRef.current?.focus(), 50);
   }
 
+  async function handlePickPhoto() {
+    const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
+    if (status !== 'granted') return;
+
+    const result = await ImagePicker.launchImageLibraryAsync({
+      mediaTypes: ImagePicker.MediaTypeOptions.Images,
+      allowsEditing: true,
+      aspect: [1, 1],
+      quality: 0.7,
+    });
+
+    if (!result.canceled && result.assets[0]) {
+      const uri = result.assets[0].uri;
+      setPhotoUri(uri);
+      if (prefs) {
+        const updated = { ...prefs, photoUri: uri };
+        await savePreferences(updated);
+        setPrefs(updated);
+      }
+    }
+  }
+
+  async function handleRate() {
+    const available = await StoreReview.isAvailableAsync();
+    if (available) await StoreReview.requestReview();
+  }
+
+  async function handleShare() {
+    await Share.share({
+      message:
+        'I\'ve been using Curious to learn something new every day 🧠✨\n\nhttps://curious.app',
+    });
+  }
+
   const userName = prefs?.userName ?? '';
   const initials = getInitials(userName || 'C');
   const days7 = getLast7Days(streak.openDates);
@@ -100,9 +140,18 @@ export default function ProfileScreen() {
 
         {/* Avatar & name */}
         <View style={styles.avatarSection}>
-          <View style={styles.avatar}>
-            <Text style={styles.avatarText}>{initials}</Text>
-          </View>
+          <TouchableOpacity onPress={handlePickPhoto} activeOpacity={0.8}>
+            {photoUri ? (
+              <Image source={{ uri: photoUri }} style={styles.avatarPhoto} />
+            ) : (
+              <View style={styles.avatar}>
+                <Text style={styles.avatarText}>{initials}</Text>
+              </View>
+            )}
+            <View style={styles.avatarEditBadge}>
+              <Feather name="camera" size={12} color="#fff" />
+            </View>
+          </TouchableOpacity>
           <View style={styles.nameRow}>
             {editingName ? (
               <TextInput
@@ -197,7 +246,12 @@ export default function ProfileScreen() {
             <View style={styles.rowDivider} />
             <SettingsRow
               label="Profile photo"
-              right={<Text style={styles.rowMuted}>Add photo</Text>}
+              onPress={handlePickPhoto}
+              right={
+                photoUri
+                  ? <Feather name="check-circle" size={16} color={theme.colors.accent} />
+                  : <Text style={styles.rowMuted}>Add photo</Text>
+              }
             />
           </View>
         </View>
@@ -206,11 +260,11 @@ export default function ProfileScreen() {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>App</Text>
           <View style={styles.sectionGroup}>
-            <SettingsRow label="Rate Curious ⭐" onPress={() => {}} />
+            <SettingsRow label="Rate Curious ⭐" onPress={handleRate} />
             <View style={styles.rowDivider} />
-            <SettingsRow label="Share Curious" onPress={() => {}} />
+            <SettingsRow label="Share Curious" onPress={handleShare} />
             <View style={styles.rowDivider} />
-            <SettingsRow label="About" onPress={() => {}} />
+            <SettingsRow label="About" onPress={() => router.push('/about' as any)} />
           </View>
         </View>
 
@@ -255,6 +309,24 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.accentSoft,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  avatarPhoto: {
+    width: 72,
+    height: 72,
+    borderRadius: 36,
+  },
+  avatarEditBadge: {
+    position: 'absolute',
+    bottom: 0,
+    right: 0,
+    width: 22,
+    height: 22,
+    borderRadius: 11,
+    backgroundColor: theme.colors.accent,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 2,
+    borderColor: theme.colors.background,
   },
   avatarText: {
     fontSize: theme.typography.sizes.xl,
@@ -335,9 +407,7 @@ const styles = StyleSheet.create({
     fontWeight: theme.typography.weights.bold,
     color: theme.colors.background,
   },
-  streakMeta: {
-    gap: 2,
-  },
+  streakMeta: { gap: 2 },
   streakCountLabel: {
     fontSize: theme.typography.sizes.xl,
     fontWeight: theme.typography.weights.bold,
@@ -351,10 +421,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
-  dayCell: {
-    alignItems: 'center',
-    gap: 6,
-  },
+  dayCell: { alignItems: 'center', gap: 6 },
   dayDot: {
     width: 28,
     height: 28,

@@ -65,4 +65,5 @@ export interface UserPreferences {
   startTime: string;
   endTime: string;
   onboardingComplete: boolean;
+  photoUri?: string;
 }
