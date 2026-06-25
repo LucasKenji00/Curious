@@ -45,7 +45,7 @@ export async function scheduleDailyNotifications(
 ): Promise<void> {
   await Notifications.cancelAllScheduledNotificationsAsync();
 
-  const pool = buildCuriosityPool(categories, angle, shareType);
+  const pool = await buildCuriosityPool(categories, angle, shareType);
   if (pool.length === 0) return;
 
   const picks = await pickUnseen(pool, frequency);

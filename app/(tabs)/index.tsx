@@ -23,7 +23,7 @@ async function loadTodaysCuriosities(
   angle: Angle,
   shareType: SurpriseType
 ): Promise<Curiosity[]> {
-  const pool = buildCuriosityPool(categories, angle, shareType);
+  const pool = await buildCuriosityPool(categories, angle, shareType);
   const picks = await pickUnseen(pool, frequency);
   await markAsSeen(picks.map((c) => c.id));
   return picks;

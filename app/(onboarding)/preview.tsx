@@ -30,7 +30,13 @@ export default function PreviewScreen() {
   const shareType = params.shareType as SurpriseType;
 
   useEffect(() => {
-    setPreview(pickPreviewItem(categories, angle, shareType));
+    let cancelled = false;
+    async function load() {
+      const item = await pickPreviewItem(categories, angle, shareType);
+      if (!cancelled) setPreview(item);
+    }
+    load();
+    return () => { cancelled = true; };
   }, []);
 
   async function handleStart() {
